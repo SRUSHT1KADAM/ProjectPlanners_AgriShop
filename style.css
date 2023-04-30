@@ -131,14 +131,11 @@ header a ion-icon {
   font-weight: 200;
 }
 
-.section1 .img {
-  background-image: url("images/b1.jpg");
-  width: 100%;
-  height: 45%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 100px;
+.section1 .img img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
 }
 
 .section2 .container {
